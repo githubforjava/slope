@@ -12,7 +12,7 @@
 	<meta name="author" content="slope-2.github.io">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Title of Site -->
-	<title>Slope 2</title>
+	<title>Slope City</title>
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<!-- Bootstrap CSS -->
@@ -95,45 +95,31 @@
 
     <div class="deluxe__three section-padding"> </div>
 
+	<!-- Game -->
+	<div style="margin-top: -120px;" class="container" align="Center">
+	  <iframe class="gm-iframe" id="gm-area" src="https://topvazstore.github.io/g7/slope-city" width="840" height="560" scrolling="none" frameborder="0" allowfullscreen></iframe>
+	   <div style="padding-top: 10px;"  class="container" align="Center"> 
+	      <button class="cs-btn cs-style1" onclick="openFullscreen();">FullScreen</button>
 
 
+	   </div>
+
+	<script>
+	var elem = document.getElementById("gm-area");
+	function openFullscreen() {
+	  if (elem.requestFullscreen) {
+	    elem.requestFullscreen();
+	  } else if (elem.webkitRequestFullscreen) { /* Safari */
+	    elem.webkitRequestFullscreen();
+	  } else if (elem.msRequestFullscreen) { /* IE11 */
+	    elem.msRequestFullscreen();
+	  }
+	}
+	</script>
 
 
-<!-- Place Two Start -->
-  <div style="margin-top: -120px;" class="place__two section-padding">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-xl-7 col-lg-6 lg-mb-30">
-                    <div class="place__two-left">
-                        <div class="place__two-left-image">
-                            <div class="place__two-left-image-item">
-                                <img src="https://topvazstore.github.io/img/slope-2.png" alt="">  
-                            </div>
-                            <div class="place__two-left-image-item mt-60">
-                                <img src="https://topvazstore.github.io/img/slope.png" alt="">  
-                            </div>
-                            <div class="place__two-left-image-item">
-                                <img src="https://topvazstore.github.io/img/slope-2.png" alt="">  
-                            </div>
-                        </div>
-                    </div>
-        </div>
-        <div class="col-xl-5 col-lg-6">
-          <div class="place__two-title">
-            <h2>Play Slope 2 Unblocked</h2>
-            <p>Phasellus malesuada convallis purus bibendum dictum. Maecenas semper nulla justo, quis pulvinar risus sagittis eget. Sed libero eros, tincidunt eu ante a, ultrices elementum arcu.</p>
-            <a class="theme-btn" href="/play.html">Play Now<i class="fal fa-long-arrow-right"></i></a>            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Place Two End -->
-
-
-
-
-
+	</div>
+	<!-- end Game -->
 
 
 	<!-- Place Two End -->
@@ -155,9 +141,6 @@
 
 
 <!-- Start similar -->
-
-
-
 
 
 
@@ -833,8 +816,6 @@
 
 
 
-
-
 <!-- End Similar -->
 
 
@@ -932,7 +913,7 @@
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="copyright__two-title">
-							<p>Slope2.github.io</p>
+							<p>Slope-2.github.io</p>
 						</div>
 					</div>
 				</div>
